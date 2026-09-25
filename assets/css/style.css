@@ -41,7 +41,8 @@ p, li{
 #wordCounter,
 #characterWSpaceCounter,
 #characterWOSpaceCounter,
-#pageCounter{
+#pageCounter,
+#characterAverage{
     font-weight: bold;
 }
 
