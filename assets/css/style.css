@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:ital,wght@0,400;0,600;0,700;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primaryColor: #115325;
+    --secondaryColor: #68FAFF;
+    --backgroundColor: #555555;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    /* padding: 25px; */
+    box-sizing: border-box;
+    background-color: var(--backgroundColor);
+}
+
+section{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 2rem;
+    padding: 20px;
+    background-color: #115325;
+}
+
+p, li{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+}
+
+#wordCounter,
+#characterWSpaceCounter,
+#characterWOSpaceCounter,
+#pageCounter{
+    font-weight: bold;
+}
+
+textarea {
+    box-sizing: border-box;
+    resize: none;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    padding: 10px;
+    margin: 20px;
+    margin-right: 10px;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.flexBottom{
+    flex: 1;
+    display: flex;
+}
+
+.flexBottom > *{
+  flex: 1;
+  min-width: 0;
+}
+
+.flexBottom > div{
+    margin: 20px;
+    margin-left: 10px;
+}
+
+ul{
+    padding-left: 25px;
+}
