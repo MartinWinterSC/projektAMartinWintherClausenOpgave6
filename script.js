@@ -33,7 +33,7 @@ input.addEventListener("input", function () {
     console.log("Pages:", pages.toFixed(1));
 
     // All of this is purely for my own perfectionism.
-    // If I wanted the better performance, I'd simply delete this and add an (s) by the text in the HTML instead
+    // If I wanted the better performance, I'd simply delete this and add an (s) by the text in the HTML instead.
     if (words === 1) {
         pluralWord.textContent = "";
     } else {
